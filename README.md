@@ -1,5 +1,5 @@
 # bytelion-scratchbling
-Project repo for Bytelion interview built using Django.
+Project repo for Bytelion interview built using Django and PostgreSQL.
 
 For local development:
 1. run `pip install -r requirements.txt`
