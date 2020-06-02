@@ -1,5 +1,5 @@
 # bytelion-scratchbling
-Project repo for Bytelion interview built using Django and PostgreSQL.
+Project repo for Bytelion interview built using Django and PostgreSQL. It is containerized through Docker and hosted on Elastic Beanstalk.
 
 For local development:
 1. run `pip install -r requirements.txt`
