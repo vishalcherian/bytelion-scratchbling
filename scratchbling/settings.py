@@ -25,7 +25,7 @@ SECRET_KEY = '#i@x6rpxqn@07ju7#bw-ua6hr-a(_4rnszj93n718o!xm=ynog'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['scratchbling-dev.us-east-1.elasticbeanstalk.com']
+ALLOWED_HOSTS = ['0.0.0.0', '127.0.0.1','scratchbling-env-2.eba-imv2xbqe.us-east-1.elasticbeanstalk.com']
 
 
 # Application definition
@@ -38,7 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'api'
+    'api',
+    'store'
 ]
 
 MIDDLEWARE = [
